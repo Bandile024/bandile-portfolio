@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-base text-ink font-body antialiased;
+    background-image: radial-gradient(circle at 15% 0%, rgba(45, 212, 191, 0.08), transparent 40%),
+      radial-gradient(circle at 85% 10%, rgba(245, 184, 73, 0.06), transparent 35%);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display;
+  }
+
+  :focus-visible {
+    outline: 2px solid #2dd4bf;
+    outline-offset: 3px;
+  }
+}
+
+@layer components {
+  .section {
+    @apply py-20 md:py-28;
+  }
+
+  .container-xl {
+    @apply mx-auto w-full max-w-6xl px-6;
+  }
+
+  .eyebrow {
+    @apply font-mono text-xs uppercase tracking-[0.25em] text-accent;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center gap-2 rounded-md bg-accent px-6 py-3 font-semibold text-base transition hover:bg-accent/90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center gap-2 rounded-md border border-border px-6 py-3 font-semibold text-ink transition hover:border-accent hover:text-accent;
+  }
+
+  .card {
+    @apply rounded-xl border border-border bg-surface p-6 shadow-[0_0_0_1px_rgba(255,255,255,0.02)];
+  }
+
+  .field-label {
+    @apply mb-2 block font-mono text-xs uppercase tracking-wide text-muted;
+  }
+
+  .field-input {
+    @apply w-full rounded-md border border-border bg-surface2 px-4 py-3 text-ink placeholder:text-muted/60 outline-none transition focus:border-accent;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
