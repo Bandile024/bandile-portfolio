@@ -5,7 +5,7 @@ Analytics & AI Engineer Intern. Rebuilt from a static multi-page HTML/CSS
 site into a full-stack **Next.js + TypeScript** app, so it's dynamic,
 type-safe, and a template you can keep learning from.
 
-> 📌 **Portfolio page:** the old hard-coded project links were removed on
+> **Portfolio page:** the old hard-coded project links were removed on
 > purpose. The Portfolio page now pulls your public repos **live from the
 > GitHub API**, so once you push new projects to GitHub they'll appear here
 > automatically — nothing to edit.
