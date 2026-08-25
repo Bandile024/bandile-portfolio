@@ -18,7 +18,7 @@ export default function HomePage() {
             </h1>
             <p className="mt-6 max-w-lg text-lg text-muted">
               Hi, I&apos;m {profile.name} — based in {profile.location}, building
-              at the intersection of data analysis, applied AI, and modern web
+              at the intersection of data analysis, artificial intelligence and machine learning, and modern web
               development.
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
@@ -61,7 +61,7 @@ export default function HomePage() {
           <AnimatedSection>
             <SectionHeading
               eyebrow="What I do"
-              title="Where data, AI, and web development meet"
+              title="Where Data, AI, and web development meet"
               description="Three lenses I bring to every project — often combined, since the most useful tools tend to need all three."
             />
           </AnimatedSection>
