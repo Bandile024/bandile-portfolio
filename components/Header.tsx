@@ -11,7 +11,7 @@ export default function Header() {
             {profile.name}
           </span>
           <span className="font-mono text-xs text-muted group-hover:text-accent">
-            {"/* " + profile.role + " */"}
+            {" " + profile.role + " "}
           </span>
         </Link>
         <nav aria-label="Primary">

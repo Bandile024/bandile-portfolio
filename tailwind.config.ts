@@ -9,14 +9,14 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        base: "#0B1220",
-        surface: "#111A2B",
-        surface2: "#161F33",
-        border: "#232F47",
-        ink: "#E7ECF5",
-        muted: "#8FA0BF",
-        accent: "#2DD4BF",
-        accent2: "#F5B849",
+        base: "#FFFFFF",
+        surface: "#F8FAFC",
+        surface2: "#F1F5F9",
+        border: "#E2E8F0",
+        ink: "#0F172A",
+        muted: "#64748B",
+        accent: "#0D9488",
+        accent2: "#B45309",
       },
       fontFamily: {
         display: ["var(--font-space-grotesk)", "sans-serif"],
@@ -24,8 +24,8 @@ const config: Config = {
         mono: ["var(--font-jetbrains-mono)", "monospace"],
       },
       backgroundImage: {
-        grid: "linear-gradient(to right, #1a2540 1px, transparent 1px), linear-gradient(to bottom, #1a2540 1px, transparent 1px)",
-      },
+  grid: "linear-gradient(to right, #E2E8F0 1px, transparent 1px), linear-gradient(to bottom, #E2E8F0 1px, transparent 1px)",
+},
       backgroundSize: {
         grid: "36px 36px",
       },

@@ -5,17 +5,18 @@
 
 export const profile = {
   name: "Bandile Ngwenya",
-  role: "Data Analytics & AI Engineer Intern",
+  role: "Data Analytics & AI Engineer",
   tagline:
-    "I turn messy data into decisions, and ideas into working AI-powered software.",
+    "I turn messy data into decisions, and ideas into working AI Software Development.",
   location: "Johannesburg, South Africa",
-  email: "bandilengwenya21112002@gmail.com",
+  email: "bandilengwenya84@gmail.com",
   phone: "060 749 1759",
   github: "https://github.com/Bandile024",
   githubUsername: "Bandile024",
   facebook: "https://facebook.com/yourprofile",
   twitter: "https://x.com/Bandile84",
   resumeUrl: "/Bandile-Ngwenya-CV.pdf",
+  photoUrl: "/profile.jpg",
 };
 
 export const nav = [
@@ -27,19 +28,19 @@ export const nav = [
 ];
 
 export const heroStats = [
-  { label: "Core stack", value: "Python · SQL · Next.js" },
-  { label: "Focus", value: "Data Analytics + AI Engineering" },
+  { label: "Core stack", value: "Python · SQL · Typescript · Next.js" },
+  { label: "Focus", value: "Data Analytics + AI Engineering + Machine Learning + Software Development" },
   { label: "Based in", value: "Johannesburg, ZA" },
 ];
 
 export const skillGroups = [
   {
     title: "Data Analytics",
-    tools: ["Python (Pandas, NumPy)", "SQL", "Power BI / Excel", "Data Visualization", "Statistical Analysis"],
+    tools: ["Python (Pandas, NumPy, Seaborn)", "SQL", "Tabluea", "Data Visualization", "Statistical Analysis"],
   },
   {
     title: "AI & Machine Learning",
-    tools: ["Scikit-learn", "AI-assisted development", "Prompt Engineering", "Model Evaluation"],
+    tools: ["Scikit-learn", "AI Development", "Prompt Engineering", "Model Evaluation"],
   },
   {
     title: "Web Development",
@@ -52,7 +53,7 @@ export const skillGroups = [
 ];
 
 export const about = {
-  intro: `I'm Bandile Ngwenya, a Data Analytics & AI Engineer Intern based in Johannesburg,
+  intro: `I'm Bandile Ngwenya, an Aspiring Data Analytics & AI Engineer based in Johannesburg,
   South Africa. My work sits at the intersection of two things I care about: making
   sense of data, and building software that puts that understanding to use.`,
   body: [

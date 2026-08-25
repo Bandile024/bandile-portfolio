@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { ArrowRight, Github } from "lucide-react";
 import AnimatedSection from "@/components/AnimatedSection";
-import Terminal from "@/components/Terminal";
+import ProfilePanel from "@/components/ProfilePanel";
 import SectionHeading from "@/components/SectionHeading";
 import { heroStats, profile, skillGroups, about } from "@/data/site";
 
@@ -13,10 +13,8 @@ export default function HomePage() {
         <div className="bg-grid pointer-events-none absolute inset-0 opacity-40 [mask-image:radial-gradient(ellipse_at_top,black,transparent_75%)]" />
         <div className="container-xl relative grid gap-12 py-20 md:grid-cols-2 md:items-center md:py-28">
           <AnimatedSection>
-            <p className="eyebrow mb-4">Data Analytics &amp; AI Engineer Intern</p>
             <h1 className="font-display text-4xl font-bold leading-tight sm:text-5xl">
-              I turn data into decisions, and ideas into working{" "}
-              <span className="text-accent">AI-powered</span> software.
+              I turn data into decisions, and ideas into effective softwares.
             </h1>
             <p className="mt-6 max-w-lg text-lg text-muted">
               Hi, I&apos;m {profile.name} — based in {profile.location}, building
@@ -51,8 +49,8 @@ export default function HomePage() {
             </dl>
           </AnimatedSection>
 
-          <AnimatedSection delay={0.15} className="flex justify-center md:justify-end">
-            <Terminal />
+          <AnimatedSection delay={0.15} className="flex justify-center md:justify-end md:-mt-48">
+            <ProfilePanel />
           </AnimatedSection>
         </div>
       </section>
