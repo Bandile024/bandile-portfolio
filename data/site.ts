@@ -29,7 +29,7 @@ export const nav = [
 
 export const heroStats = [
   { label: "Core stack", value: "Python · SQL · Typescript · Next.js" },
-  { label: "Focus", value: "Data Analytics + AI Engineering + Machine Learning + Software Development" },
+  { label: "Focus", value: "Data Analytics · AI Engineering · Machine Learning · Software Development" },
   { label: "Based in", value: "Johannesburg, ZA" },
 ];
 
