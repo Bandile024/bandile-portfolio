@@ -119,7 +119,7 @@ export default function HomePage() {
             </h2>
             <p className="max-w-xl text-muted">
               Whether it&apos;s a custom website, a data dashboard, or an
-              AI-assisted tool — tell me about it and I&apos;ll get back to you
+              AI tool — tell me about it and I&apos;ll get back to you
               promptly.
             </p>
             <Link href="/request" className="btn-primary">
