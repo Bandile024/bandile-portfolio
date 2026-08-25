@@ -78,7 +78,7 @@ export const about = {
         "Cleaning, exploring, and visualizing data to answer real business questions.",
     },
     {
-      title: "AI-Assisted Engineering",
+      title: "AI Engineering",
       description:
         "Applying AI tools thoughtfully inside real development workflows, not as a gimmick.",
     },
