@@ -36,6 +36,9 @@ export const metadata: Metadata = {
     description: profile.tagline,
     type: "website",
   },
+  other: {
+    "google-adsense-account": "ca-pub-7540311998548224",
+  },
 };
 
 export default function RootLayout({
