@@ -5,7 +5,6 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import BackToTop from "@/components/BackToTop";
 import { profile } from "@/data/site";
-import Script from "next/script";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -47,12 +46,6 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${spaceGrotesk.variable} ${jetbrainsMono.variable}`}>
       <body>
-        <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7540311998548224"
-          crossOrigin="anonymous"
-          strategy="beforeInteractive"
-        />
         <Header />
         <main>{children}</main>
         <Footer />
